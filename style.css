@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.copyMsgShow{
+    @apply block top-0  animate-[copyShow_0.2s_linear]
+}
+.copyMsgHide{
+    @apply block top-[-10%]  animate-[copyHide_0.2s_linear]   
+}
